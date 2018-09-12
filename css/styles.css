@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5{
+/* body,h1,h2,h3,h4,h5{
   font-family: "Poppins", sans-serif
 }
 body{
@@ -14,3 +14,28 @@ body{
 .w3-half img:hover{
   opacity:1
 }
+ */
+
+<style>
+  div { 
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+  }
+  #top {
+    background-color: red;
+  }
+
+  #bottom {
+    background-color: blue;
+    transform: skewX(24deg);
+  }
+</style>
+
+<div id="top"></div>
+<div id="bottom"></div>
+
+ background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px green; 
+  /* box-shadow property should be set to 25px for offset-x, 10px for offset-y, 0 for blur-radius, 0 for spread-radius, and finally blue for the color. */
